@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.profile-image {
+    text-align: center;
+    position: relative;
+}
+
+.profile-image input {
+    display: none;
+}
+
+.profile-image label {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.profile-image label img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px; 
+    border: 2px solid #3498db;
+}
+
+.change-photo-text {
+    font-size: 14px;
+    color: #3498db;
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+
+.profile-image label:hover {
+    opacity: 0.8;
+}
+
+
+.profile-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-info form {
+    max-width: 400px;
+}
+
+.profile-info label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.profile-info input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-info button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-info button:hover {
+    background-color: #2980b9;
+}
+
+.current-profile {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.current-profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.current-profile .profile-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.current-profile p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.current-profile p span {
+    font-weight: bold;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.back-button i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}

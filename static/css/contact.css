@@ -1,0 +1,138 @@
+body {
+    background-color: #f4f4f4;
+    /* Background color for the entire page */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* Background color for the contact us section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 45%;
+    background-color: #3498db;
+    /* Adjust the width as needed */
+}
+
+
+.message-form {
+    width: 45%;
+    /* Adjust the width as needed */
+}
+
+/* Additional styling for the Coal Industries section */
+.coal-industries {
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+    /* Background color for the Coal Industries section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contact-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi untuk tombol submit */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Efek transisi untuk elemen formulir */
+form label,
+form input,
+form textarea,
+form button {
+    transition: all 0.3s ease;
+}
+
+/* Efek focus untuk input dan textarea */
+form input:focus,
+form textarea:focus {
+    border: 2px solid #45a049;
+    outline: none;
+}
+
+/* Styling for contact information and message form */
+.contact-info h1,
+.message-form h2,
+.message-form label {
+    font-family: 'Monaco', monospace; /* Ganti 'Monaco' dengan nama font monospace yang diinginkan */
+    text-align: center; /* Tengahkan teks */
+}
+
+.contact-info p,
+.message-form p {
+    font-family: 'Monaco', monospace; /* Ganti 'Monaco' dengan nama font monospace yang diinginkan */
+    text-align: center; /* Tengahkan teks */
+}
+
+/* Styling for the address container */
+.address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.address-container i {
+    margin-right: 10px;
+    margin-bottom: 5px; /* Tambahkan jarak ke bawah */
+}
+
+.address-container p {
+    margin-bottom: 8px;
+}

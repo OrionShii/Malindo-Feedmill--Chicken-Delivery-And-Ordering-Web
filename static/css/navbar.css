@@ -1,0 +1,22 @@
+/* Custom Navbar Styles */
+.sidebar {
+  background-color: #ffffff;
+  height: 100vh; /* Set the height of the sidebar to full viewport height */
+  padding-top: 20px;
+  color: #ffffff;
+}
+
+.sidebar .nav-link {
+  padding: 8px 15px;
+  color: #ffffff;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Custom Styling for Main Content */
+main {
+  padding: 20px; /* Add padding to the main content */
+}
