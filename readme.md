@@ -1,7 +1,3 @@
-Here's a detailed description in English for your GitHub repository about the Malindo Feedmill web application, including instructions on how to run the application and information about its features.
-
----
-
 # Malindo Feedmill Web Application
 
 ## 📄 Description
