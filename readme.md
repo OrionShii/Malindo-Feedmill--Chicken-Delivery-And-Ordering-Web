@@ -6,6 +6,16 @@ The **Malindo Feedmill Web Application** is a web-based platform designed to str
 
 The application is built using [Golang](https://golang.org/) with the [Gin](https://gin-gonic.com/) framework. It utilizes SQLite for database management, making it easy to handle data locally.
 
+![Screenshot 2024-06-08 190816](https://github.com/user-attachments/assets/834a9d7b-29aa-488b-b973-4241d1fef074)
+![Screenshot 2024-06-08 190832](https://github.com/user-attachments/assets/09e711ae-af70-4934-b26a-6557e5a09354)
+![Screenshot 2024-06-08 190847](https://github.com/user-attachments/assets/9ac51407-3487-4b3a-95d4-7748da080d2b)
+![Screenshot 2024-06-08 190929](https://github.com/user-attachments/assets/15490995-94f8-4c07-81f7-a7b8c5ca0417)
+![Screenshot 2024-06-08 190949](https://github.com/user-attachments/assets/92f4c732-76ed-4574-b65b-484fcf363016)
+![Screenshot 2024-06-08 191005](https://github.com/user-attachments/assets/05be8664-c144-4113-a4d5-49d3073a0060)
+![Screenshot 2024-06-08 191039](https://github.com/user-attachments/assets/3a7a7d9b-aa5a-494e-a735-0d4a49a57671)
+![Screenshot 2024-06-08 191047](https://github.com/user-attachments/assets/4f8006be-c044-4aea-a244-d7c67ce1b361)
+
+
 ## 👥 Contributors
 
 - [@amarps](https://github.com/amarps)
